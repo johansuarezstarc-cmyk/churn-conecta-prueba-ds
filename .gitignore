@@ -1,0 +1,5 @@
+datos_conecta.zip
+/datos/
+*.db
+*.jsonl
+*.jsonl.gz
