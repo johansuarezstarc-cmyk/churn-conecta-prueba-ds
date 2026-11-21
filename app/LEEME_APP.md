@@ -1,6 +1,6 @@
 # ModelBot (bonus)
 
-Guía interactiva del modelo de churn de Conecta+. Es **gratuita, sin claves de API, sin LLM, sin conexión a internet** y no incluye ejecutables ni lanzadores.
+Guía interactiva del modelo de churn de Conecta+. Es **gratuita, sin claves de API y sin LLM**, no consulta ningún servicio externo (funciona también sin internet) y no incluye ejecutables ni lanzadores.
 
 ## Para qué sirve
 Ayuda a un gerente que no lee el notebook a entender a quién conviene contactar, cuánto cuesta y dónde puede fallar el modelo.
@@ -14,6 +14,9 @@ El modelo y el notebook son técnicos. La app traduce el resultado en decisiones
 3. Antes de decidir, revisa **«Dónde puede fallar»**.
 
 ## Cómo abrirla
+En línea: https://johansuarezstarc-cmyk.github.io/churn-conecta-prueba-ds/app/
+
+O, sin internet:
 **Doble clic en `index.html`**. Probado en Chrome y Edge. No necesita servidor ni instalar nada: los datos y los textos viajan dentro de `datos.js` y la lógica en `app.js`.
 
 ## Qué hace
@@ -31,7 +34,7 @@ Los datos son **agregados**: nada por cliente ni textos de tickets (de la regres
 - Los datos de origen son sintéticos y solo hay tres cortes: ver «Dónde puede fallar».
 
 ## Privacidad
-Los datos y el enunciado son confidenciales. Esta carpeta no contiene datos de clientes ni textos de tickets.
+Los datos de la prueba son confidenciales. La app contiene únicamente cifras agregadas, sin datos por cliente ni textos de tickets, y por eso puede publicarse. Un despliegue de producción real con datos de clientes sí requeriría acceso con usuarios y permisos.
 
 ## Notas técnicas
 - **Paleta de las gráficas.** Los colores se validaron en modo oscuro: pasan croma, separación para daltonismo (ΔE ≥ 10), separación en visión normal y contraste ≥ 3:1, pero **no la banda de luminosidad** (son más claros que la banda recomendada, a propósito, para que contrasten con el fondo azul). Se compensa con leyenda en cada gráfica de varias series, etiquetas de valor y vista de tabla («Ver como tabla»).

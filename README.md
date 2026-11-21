@@ -55,7 +55,7 @@ Todo el código está en el notebook. Núcleo: secciones 1, 5, 6, 8 y 9; el rest
 Guía interactiva, en español, para un usuario de negocio: explica cómo funciona el modelo, a quién conviene contactar y **dónde puede fallar**.
 
 - **Para qué sirve:** ayuda a un gerente que no lee el notebook a entender a quién conviene contactar, cuánto cuesta y dónde puede fallar el modelo, y a ver cómo cambia el resultado al variar el costo y la efectividad.
-- **Cómo abrirla:** doble clic en **`app/index.html`**. Sin internet, **sin claves de API, sin modelo de lenguaje y sin instalar nada**. Probada en Chrome y Edge.
+- **Cómo abrirla:** en línea, en https://johansuarezstarc-cmyk.github.io/churn-conecta-prueba-ds/app/ , o con doble clic en **`app/index.html`** (funciona también sin internet). **Sin claves de API, sin modelo de lenguaje y sin instalar nada**. Probada en Chrome y Edge.
 - **Qué es:** guía **determinista** (menú y palabras clave), con recorrido en cuatro pasos, factores del modelo, glosario, la tabla «Dónde puede fallar» (11 puntos) y un simulador de costo y efectividad (aproximación, con el error medido a la vista).
-- **Qué no es:** no genera la lista de clientes (`predicciones.csv`), no contiene datos por cliente ni textos de tickets (solo cifras agregadas) y no es un chat abierto.
+- **Qué no es:** no genera la lista de clientes (`predicciones.csv`), no contiene datos por cliente ni textos de tickets (solo cifras agregadas, y por eso puede publicarse) y no es un chat abierto.
 - **Origen de las cifras:** una sección de exportación (sección 10) en una copia del notebook que no se sube; puedo mostrarla en la sustentación. Detalle en `app/LEEME_APP.md`.
