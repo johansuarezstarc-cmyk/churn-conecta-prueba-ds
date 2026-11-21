@@ -1,7 +1,15 @@
-# Este proyecto no necesita instalar nada en Google Colab: solo usa librerías que Colab ya trae
-# (pandas, numpy, scikit-learn, matplotlib; sqlite3, json, gzip y zipfile son de la biblioteca estándar de Python).
+# NOTA: en Google Colab no hace falta instalar nada. Todas las librerías que usa solucion.ipynb
+# (pandas, numpy, scikit-learn, matplotlib e IPython) ya vienen preinstaladas en Colab; el resto
+# (sqlite3, json, gzip, zipfile, re, os, random, unicodedata, warnings) es la biblioteca estándar de Python.
+# Por eso este archivo no tiene dependencias activas.
 #
-# Versiones con las que se ejecutó de principio a fin (para ejecución local fuera de Colab):
-#   Python 3.12 · pandas 3.0.3 (numpy 2.5) y pandas 2.2.2 (numpy 2.0.2, como Colab) · scikit-learn 1.9 · matplotlib 3.11
-# Versiones mínimas probadas: pandas 2.2.2 y 3.0.3 (las dos corrieron el notebook completo; no se probaron versiones anteriores).
-# Para ejecutarlo localmente: pip install pandas numpy scikit-learn matplotlib jupyter
+# Solo para quien lo ejecute FUERA de Colab: librerías principales con la versión mínima con la que
+# se ejecutó el notebook completo (no se probaron versiones anteriores). Descomenta y ejecuta
+# `pip install -r requirements.txt`, e instala también `jupyter` para abrir el notebook.
+#
+# pandas>=2.2.2        # probado con 2.2.2 (numpy 2.0.2, como Colab) y con 3.0.3 (numpy 2.5)
+# numpy>=2.0.2
+# scikit-learn>=1.9    # probado con 1.9
+# matplotlib>=3.11     # probado con 3.11
+# ipython              # solo para display(); viene con jupyter
+# Entorno de las pruebas: Python 3.12.
